@@ -5,7 +5,7 @@
 IMATGE_BOX = "debian/bookworm64"
 GESTORMV = "virtualbox"
 
-NOM_NODE="sm8a2"
+NOM_NODE="sm8act2"
 
 NOM_BASE = "websrv"
 ID = "-dacomo" # Canvia-ho pel teu identificador d'alumne
