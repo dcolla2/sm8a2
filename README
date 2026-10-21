@@ -1,0 +1,44 @@
+# DAW2 SM8 2026-2027 FJE CLOT
+
+## Requisits
+
+Requereix tenir instal·lat previament:
+1. Virtualbox https://www.virtualbox.org/
+2. Vagrant https://www.vagrantup.com/
+
+## Pasos a seguir
+
+1. Creació d'una carpeta amb el fitxer Vagrantfile i un directori per compartir:
+
+	- Crea una carpeta de nom  sm8. Dins d'aquesta carpeta crea una altra carpeta de nom sm8a2.
+	- Accedeix a sm8a2. Dins d'aquesta carpeta crear una altra carpeta de nom projectes.
+	- Dins de sm8a2, descarrega el fitxer Vagrantfile que trobaràs a:
+	  https://raw.githubusercontent.com/dcolla2/sm8a2/refs/heads/main/Vagrantfile 
+
+2. Canvia el nom de sistema de la màquina virtual:
+
+	- Obre Vagrantfile amb nano, geany, qualsevol IDE o qualsevol editor de texte pla.
+	- Edita la variable ID i canvia xyyzz per les 2 primeres lletres del teu nom (xx), 1r cognom (yy) i 2n cognom (zz). Sí tens un cognom, llavors yyzz són les 4 primeres lletres del teu cognom.  
+	
+3. Inicia la màquina virtual executant dins de la carpeta sm8a2 l'ordre:
+
+	vagrant up
+
+4. Accedeix a la màquina virtual per SSH executant dins de la carpeta sm8a2 l'ordre:
+
+	vagrant ssh
+
+5. Surt de la màquina virtual i torna a la carpeta sm8a2 de la màquina física executant l'ordre:
+
+	exit
+
+6. Atura la màquina virtual executant dins de la carpeta sm8a2 l'ordre:
+
+	vagrant halt
+
+
+
+
+
+
+
